@@ -37,3 +37,10 @@ img.demo {
   padding: 3px;
   border: 1px solid #ccc;
 }
+
+section#feature {
+  background: #1caa98;
+  color: #fff;
+  padding: 40px;
+  overflow: auto;
+}
