@@ -6,6 +6,10 @@ body {
   color: #1caa98 !important;
 }
 
+.jumbotron {
+background: url('../img/site_showcase_bg.jpg') no-repeat top center;  
+}
+
 .jumbotron .app-btn {
   width: 40%;
   margin-right: 30px;
