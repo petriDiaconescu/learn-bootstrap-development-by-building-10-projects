@@ -5,3 +5,8 @@ body {
 .em-text {
   color: #1caa98 !important;
 }
+
+.jumbotron .app-btn {
+  width: 40%;
+  margin-right: 30px;
+}
