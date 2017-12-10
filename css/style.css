@@ -83,3 +83,9 @@ footer p {
   float: right;
 }
 
+/** Mobile Queries */
+@media(max-width: 1200px){
+  body{
+    display: none !important;
+  }
+}
