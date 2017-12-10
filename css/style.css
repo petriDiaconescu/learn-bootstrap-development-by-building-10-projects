@@ -28,6 +28,9 @@ body {
 .jumbotron img.showcase-img {
   width: 75%;
 }
+section {
+  padding: 40px 0;
+}
 
 img.demo {
   width: 100%;
