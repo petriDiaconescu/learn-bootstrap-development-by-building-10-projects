@@ -7,7 +7,7 @@ body {
 }
 
 .jumbotron {
-  background: url('../img/site_showcase_bg.jpg') no-repeat top center; 
+  background: #1b222a url('../img/site_showcase_bg.jpg') no-repeat top center; 
   color: #fff;
   height: 500px;
   overflow: none;
@@ -121,5 +121,15 @@ footer p {
 }
 
 @media(max-width: 500px){
+  .jumbotron {
+    height: 400px !important;
+    background-image: none;
+    text-align: center;
+  }
   
+  .jumbotron img.app-btn {
+    width: 60%;
+    margin: 0 auto 30px auto;
+    display: block;
+  }
 }
