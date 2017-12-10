@@ -6,6 +6,10 @@ body {
   color: #1caa98 !important;
 }
 
+.col-md-4 {
+  margin-bottom: 20px;
+}
+
 .jumbotron {
   background: #1b222a url('../img/site_showcase_bg.jpg') no-repeat top center; 
   color: #fff;
