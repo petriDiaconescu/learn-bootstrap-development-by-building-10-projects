@@ -7,7 +7,10 @@ body {
 }
 
 .jumbotron {
-background: url('../img/site_showcase_bg.jpg') no-repeat top center;  
+  background: url('../img/site_showcase_bg.jpg') no-repeat top center; 
+  color: #fff;
+  height: 598px;
+  overflow: none;
 }
 
 .jumbotron .app-btn {
