@@ -44,3 +44,9 @@ section#feature {
   padding: 40px;
   overflow: auto;
 }
+
+section#feature ul li {
+  font-size: 22px;
+  list-style: none;
+  line-height: 2em;
+}
