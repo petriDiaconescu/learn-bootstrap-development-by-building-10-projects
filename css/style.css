@@ -98,6 +98,15 @@ footer p {
   .jumbotron img.app-btn {
     width: 30%;
   }
+  
+  .jumbotron {
+    height: 400px !important;
+    background-size: 100% 100%;
+  }
+  
+  .jumbotron h1 {
+    margin-top: 10px;
+  }
 }
 
 @media(max-width: 500px){
