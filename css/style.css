@@ -20,15 +20,17 @@ body {
 .jumbotron p {
   margin-bottom: 40px;
 }
-.jumbotron .app-btn {
+.jumbotron img.app-btn {
   width: 40%;
   margin-right: 30px;
 }
 
-.jumbotron .showcase-img {
+.jumbotron img.showcase-img {
   width: 75%;
 }
 
-.demo {
+img.demo {
   width: 100%;
+  padding: 3px;
+  border: 1px solid #ccc;
 }
