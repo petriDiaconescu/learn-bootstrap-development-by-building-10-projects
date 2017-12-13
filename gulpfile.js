@@ -4,7 +4,7 @@ var sourcemaps = require('gulp-sourcemaps');
 var plugins = require('gulp-load-plugins')();
 
 gulp.task('sass', function(){
-  gulp.src('sass/*.scss')
+  gulp.src('sass/**/*.scss')
     .pipe(plugins.plumber(function(error){
       console.log(error.toString());
       this.emit('end');

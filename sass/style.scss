@@ -1,6 +1,6 @@
-$bodypadding: 50px;
+@import 'vendors/_bootstrap.scss';
 
 body {
-  padding-bottom: $bodypadding;
+  padding-bottom: 50px;
 }
 
