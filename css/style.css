@@ -6492,4 +6492,8 @@ header h1 {
   font-size: 15px;
   color: #ccc; }
 
+.media {
+  background: #ededed;
+  padding: 10px; }
+
 /*# sourceMappingURL=style.css.map */
