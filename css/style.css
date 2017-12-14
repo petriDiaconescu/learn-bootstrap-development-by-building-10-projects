@@ -6434,6 +6434,12 @@ body {
   background: #ededed;
   font-size: 16px; }
 
+h2 {
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.4em;
+  font-size: 1.5em; }
+
 .primary, strong, h2 {
   color: #3b5a76; }
 
