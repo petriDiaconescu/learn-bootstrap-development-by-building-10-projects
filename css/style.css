@@ -6456,4 +6456,10 @@ header h1 {
   text-align: center;
   line-height: 1.4em; }
 
+.profile-image {
+  width: 160px;
+  display: block;
+  margin: auto;
+  margin-top: -80px; }
+
 /*# sourceMappingURL=style.css.map */
