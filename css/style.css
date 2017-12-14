@@ -6471,4 +6471,13 @@ header h1 {
 .line {
   max-width: 100%; }
 
+.contact-list {
+  padding: 0;
+  margin: 0; }
+
+.contact-list li {
+  list-style: none;
+  font-weight: bold;
+  line-height: 3.2em; }
+
 /*# sourceMappingURL=style.css.map */
