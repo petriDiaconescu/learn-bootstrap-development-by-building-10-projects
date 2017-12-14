@@ -1,6 +1,16 @@
 @import 'vendors/_bootstrap.scss';
 
+/* Vars */
+$primary-color: #3b5a76;
+$background-color: #ededed;
+$text-color: #363636;
+$font: 16px;
+
 body {
-  padding-bottom: 50px;
+  padding-bottom: 0px;
+  font-family: 'Open Sans', Arial, Tahoma;
+  color: $text-color;
+  background: $background-color;
+  font-size: $font;
 }
 

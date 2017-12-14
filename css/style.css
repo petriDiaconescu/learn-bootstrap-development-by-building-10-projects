@@ -6426,7 +6426,12 @@ button.close {
     display: none !important; } }
 
 /*# sourceMappingURL=bootstrap.css.map */
+/* Vars */
 body {
-  padding-bottom: 50px; }
+  padding-bottom: 0px;
+  font-family: 'Open Sans', Arial, Tahoma;
+  color: #363636;
+  background: #ededed;
+  font-size: 16px; }
 
 /*# sourceMappingURL=style.css.map */
