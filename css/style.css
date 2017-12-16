@@ -12,3 +12,8 @@ header form {
 header logo {
   float: left;
 }
+
+.panel-heading {
+  background-image: linear-gradient(#04519b, #044687 60%, #033769);
+  color: #fff !important;
+}
