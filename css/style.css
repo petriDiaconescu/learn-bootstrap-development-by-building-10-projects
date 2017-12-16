@@ -56,6 +56,17 @@ header logo {
   top: 50%;
 }
 
+.post-actions {
+  margin: 5px;
+}
+
+.comment-form .form-group {
+  width: 90%;
+}
+
+.comment-form input[type='text'] {
+  width: 100%;
+}
 
 .comment-avatar img{
   width: 40px;
