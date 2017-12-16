@@ -91,3 +91,9 @@ header logo {
 .friends li img {
   width: 55px;
 }
+
+.groups img {
+  width: 80px;
+  float: left;
+  margin-right: 15px;
+}
