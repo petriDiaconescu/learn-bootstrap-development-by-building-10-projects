@@ -73,6 +73,15 @@ header logo {
   margin-right: 5px;
 }
 
+.comment {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 3px;
+  margin: 5px 0;
+  overflow: auto;
+  width: 100%;
+}
+
 .friends li {
   list-style: none;
   padding: 5px;
