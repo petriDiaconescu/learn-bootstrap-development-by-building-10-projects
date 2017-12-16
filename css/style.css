@@ -84,7 +84,7 @@ header logo {
 
 .friends li {
   list-style: none;
-  padding: 5px;
+  padding: 0 5px;
   float: left;
 }
 
