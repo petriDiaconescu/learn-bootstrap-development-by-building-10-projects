@@ -22,3 +22,13 @@ header logo {
   width: 40px;
   margin-right: 5px;
 }
+
+.friends li {
+  list-style: none;
+  padding: 5px;
+  float: left;
+}
+
+.friends li img {
+  width: 55px;
+}
