@@ -105,6 +105,12 @@ header logo {
   overflow: auto;
 }
 
+.members .member-row {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
 footer {
   background: #f4f4f4;
   height: 90px;
