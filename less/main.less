@@ -76,3 +76,23 @@ a:hover, a:focus {
   font-size: 16px;
   color: @light;
 }
+
+@media(min-width: 767px){
+  .navbar {
+    padding: 20px 0;
+    border-bottom: none;
+    background: transparent;
+    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+  }
+  
+  .top-nav-collapse {
+    padding: 0;
+    background-color: @dark;
+  }
+  
+  .navbar-custom.top-nav-collapse {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+}
