@@ -61,7 +61,9 @@ a:hover, a:focus {
   color: @light;
 }
 
-.navbar-custom .nav li a {
+.navbar-custom .nav li a,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li.active{
   -webkit-transition: background .3s ease-in-out;
   -moz-transition: background .3s ease-in-out;
   transition: background .3s ease-in-out;
