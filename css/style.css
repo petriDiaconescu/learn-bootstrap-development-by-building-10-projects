@@ -2,6 +2,11 @@ body {
   padding-top: 40px;
 }
 
+section {
+  margin: 30px 0;  
+}
+
+
 .carousel {
   min-height: 500px;
   margin-bottom: 60px;
@@ -31,4 +36,13 @@ body {
 
 .server-img {
   width: 100%;
+}
+
+/* Marketing Section*/
+.marketing {
+	text-align: center;
+}
+
+.marketing h2 {
+  font-weight: normal;
 }
