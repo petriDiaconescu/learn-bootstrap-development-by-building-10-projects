@@ -60,3 +60,8 @@ footer {
   background-color: #1f87c2;
   color: #fff;
 }
+
+.actions {
+  float: right;
+  margin-top: 20px;
+}
