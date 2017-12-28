@@ -11,6 +11,10 @@ section {
   background: #bf5a16;
 }
 
+.well {
+  overflow: auto;
+}
+
 .carousel {
   min-height: 500px;
   margin-bottom: 60px;
