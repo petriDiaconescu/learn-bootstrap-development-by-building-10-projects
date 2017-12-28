@@ -1,20 +1,22 @@
+@primary: #0383c0;
+
 .navbar {
   margin-bottom: 20px;
-  background: #0383c0 url(../img/navbar.png) repeat-x;
+  background: @primary url(../img/navbar.png) repeat-x;
   border: 1px solid #ccc;
 }
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default a:hover {
   background: none;
-  color: #0383c0 !important;
+  color: @primary !important;
   font-weight: bold;
 }
+
 .logo {
   width: 100%;
   margin: 40px 0 0 0;
   font-family: 'Oswald', sans-serif;
 }
-
-/*# sourceMappingURL=style.css.map */
