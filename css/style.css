@@ -1,3 +1,18 @@
 body {
   padding-top: 40px;
 }
+
+.carousel {
+  min-height: 500px;
+  margin-bottom: 60px;
+}
+
+.carousel-caption {
+  z-index: 10;
+  text-align: left;
+  top: 70px;
+  right: 10%;
+  left: 10%;
+  font-size: 22px;
+  
+}
