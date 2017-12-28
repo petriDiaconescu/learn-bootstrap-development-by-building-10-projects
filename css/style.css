@@ -1,5 +1,6 @@
 .navbar {
   margin-bottom: 20px;
+  margin-top: 30px;
   background: #0383c0 url(../img/navbar.png) repeat-x;
   border: 1px solid #ccc;
 }
@@ -15,6 +16,9 @@
   width: 100%;
   margin: 40px 0 0 0;
   font-family: 'Oswald', sans-serif;
+}
+.primary {
+  color: #0383c0;
 }
 
 /*# sourceMappingURL=style.css.map */
