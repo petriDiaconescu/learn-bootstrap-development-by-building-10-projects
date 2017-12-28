@@ -87,43 +87,47 @@
             </ol>
             
             <h3>Latest Pages</h3>
-            <table class="table table-striped">
-              <tr>
-                <th><input type="checkbox" /></th>
-                <th>Page Title</th>
-                <th>Category</th>
-                <th>Author</th>
-              </tr>
-              <tr>
-                <td><input type="checkbox" /></td>
-                <td><a href="page.html">Sample Page One</a></td>
-                <td>Category One</td>
-                <td>John Doe</td>
-              </tr>
-              <tr>
-                <td><input type="checkbox" /></td>
-                <td><a href="page.html">Sample Page Two</a></td>
-                <td>Category Two</td>
-                <td>Brad Traversy</td>
-              </tr>
-              <tr>
-                <td><input type="checkbox" /></td>
-                <td><a href="page.html">Sample Page Three</a></td>
-                <td>Category Two</td>
-                <td>John Doe</td>
-              </tr>
-              <tr>
-                <td><input type="checkbox" /></td>
-                <td><a href="page.html">Sample Page Four</a></td>
-                <td>Category One</td>
-                <td>John Doe</td>
-              </tr>
-              <tr>
-                <td><input type="checkbox" /></td>
-                <td><a href="page.html">Sample Page Five</a></td>
-                <td>Category Three</td>
-                <td>James Smith</td>
-              </tr>
+            <table id="sort-table" class="table table-striped">
+              <thead>
+                <tr>
+                  <th><input type="checkbox" /></th>
+                  <th>Page Title</th>
+                  <th>Category</th>
+                  <th>Author</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td><a href="page.html">Sample Page One</a></td>
+                  <td>Category One</td>
+                  <td>John Doe</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td><a href="page.html">Sample Page Two</a></td>
+                  <td>Category Two</td>
+                  <td>Brad Traversy</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td><a href="page.html">Sample Page Three</a></td>
+                  <td>Category Two</td>
+                  <td>John Doe</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td><a href="page.html">Sample Page Four</a></td>
+                  <td>Category One</td>
+                  <td>John Doe</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td><a href="page.html">Sample Page Five</a></td>
+                  <td>Category Three</td>
+                  <td>James Smith</td>
+                </tr>
+              </tbody>
             </table>
             <nav aria-label="Page navigation">
               <ul class="pagination">
@@ -162,5 +166,12 @@
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="js/jquery.tablesorter.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script type="text/javascript">
+      $(function(){
+        $('#sort-table').tablesorter({
+          sortList: [[0,0], [1,0], ]
+        });
+      });
+    </script>
   </body>
 </html>
