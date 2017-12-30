@@ -68,7 +68,7 @@ section {
   background: url(../img/bg.jpg) no-repeat;
 }
 
-h1 {
+h1, h2, h3 {
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
 }
