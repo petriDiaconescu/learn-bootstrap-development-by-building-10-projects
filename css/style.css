@@ -10,6 +10,18 @@ section {
   background: #f4f4f4;
 }
 
+.section-primary {
+  background: #0383c0;
+  color: #fff;
+  padding: 60px 0;
+}
+
+.section-secondary {
+  background: #e44d26;
+  color: #fff;
+  padding: 60px 0;
+}
+
 .nav {
   margin-top: 18px;
 }
