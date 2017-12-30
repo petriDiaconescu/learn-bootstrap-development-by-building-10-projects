@@ -180,3 +180,13 @@ footer {
     display: block !important;
   }
 }
+
+@media(max-width: 768px){
+  .jumbotron {
+    min-height: 300px;
+  }
+  
+  .jumbotron img {
+    display: none;
+  }
+}
