@@ -104,6 +104,15 @@ header form {
     float: none;
     width: 80%;
   }
+  .navbar a {
+    color: #fff !important;
+  }
+  .navbar a:hover {
+    color: #ccc !important;
+  }
+  .navbar form {
+    display: none;
+  }
 }
 @media (max-width: 600px) {
   .tab-content {
