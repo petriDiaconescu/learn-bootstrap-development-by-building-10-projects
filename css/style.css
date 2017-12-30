@@ -46,3 +46,10 @@ body {
   text-transform: none;
 }
 
+.navbar-nav a:hover,
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+  background: #0383c0 !important;
+  color: #fff !important;
+}
