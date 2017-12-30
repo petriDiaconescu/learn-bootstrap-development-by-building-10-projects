@@ -1,7 +1,10 @@
+a {
+  color: #C83C27;
+}
 .navbar {
   margin-bottom: 20px;
   margin-top: 30px;
-  background: #0383c0 url(../img/navbar.png) repeat-x;
+  background: #C83C27 url(../img/navbar.png) repeat-x;
   border: 1px solid #ccc;
 }
 .navbar-default .navbar-nav > .active > a,
@@ -9,7 +12,7 @@
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default a:hover {
   background: none;
-  color: #0383c0 !important;
+  color: #C83C27 !important;
   font-weight: bold;
 }
 .logo {
@@ -18,7 +21,7 @@
   font-family: 'Oswald', sans-serif;
 }
 .primary {
-  color: #0383c0;
+  color: #C83C27;
 }
 .subtext {
   color: #666;
@@ -29,7 +32,7 @@
 header form {
   float: right;
   margin-top: 30px;
-  background: #0383c0;
+  background: #C83C27;
   padding: 15px;
   color: #fff;
   border-radius: 5px;
@@ -62,7 +65,7 @@ header form {
   font-size: 15px;
 }
 .tablist li.active {
-  background: #0383c0;
+  background: #C83C27;
   color: #fff;
 }
 .tablist li.active a {
@@ -76,7 +79,7 @@ header form {
 .tab-content {
   float: right;
   width: 70%;
-  background: #0383c0;
+  background: #C83C27;
   color: #fff;
   overflow: hidden;
   height: 275px;
