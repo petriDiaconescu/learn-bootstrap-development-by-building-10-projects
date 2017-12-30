@@ -29,6 +29,7 @@ body {
 
 .navbar-nav > li > a {
   padding: 20px;
+  font-family: 'Oswald', sans-serif;
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
@@ -44,3 +45,4 @@ body {
   font-family: arial;
   text-transform: none;
 }
+
