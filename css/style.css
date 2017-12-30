@@ -51,5 +51,15 @@ header form {
   margin: 0;
   width: 30%;
 }
+.tablist li {
+  background: #ccc;
+  list-style: none;
+  color: #666;
+  padding: 15px 10px;
+  padding-left: 20px;
+  margin-bottom: 5px;
+  width: 100%;
+  font-size: 15px;
+}
 
 /*# sourceMappingURL=style.css.map */
