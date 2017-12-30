@@ -115,3 +115,11 @@ h1, h2, h3 {
   font-style: 18px;
   line-height: 2em;
 }
+
+footer {
+  text-align: center;
+  height: 60px;
+  background: #f4f4f4;
+  padding-top: 20px;
+  margin-top: 50px;
+}
