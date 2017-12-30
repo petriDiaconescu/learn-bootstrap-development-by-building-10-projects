@@ -61,5 +61,17 @@ header form {
   width: 100%;
   font-size: 15px;
 }
+.tablist li.active {
+  background: #0383c0;
+  color: #fff;
+}
+.tablist li.active a {
+  color: #fff;
+}
+.tablist a {
+  color: #666;
+  display: block;
+  text-decoration: none;
+}
 
 /*# sourceMappingURL=style.css.map */
