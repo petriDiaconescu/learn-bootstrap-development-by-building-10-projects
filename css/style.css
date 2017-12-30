@@ -2,6 +2,14 @@ body {
   padding-top: 90px;
 }
 
+section {
+  padding: 30px 0;
+}
+
+.section-gray {
+  background: #f4f4f4;
+}
+
 .nav {
   margin-top: 18px;
 }
