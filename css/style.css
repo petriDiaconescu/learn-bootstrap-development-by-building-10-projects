@@ -91,5 +91,14 @@ header form {
   width: 40%;
   margin-left: 40px;
 }
+@media (max-width: 768px) {
+  .slide-img {
+    display: none;
+  }
+  .tab-text {
+    float: none;
+    width: 80%;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
