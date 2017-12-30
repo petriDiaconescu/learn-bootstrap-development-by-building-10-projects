@@ -2,7 +2,22 @@ body {
   padding-top: 90px;
 }
 
+.nav {
+  margin-top: 18px;
+}
+
 .navbar {
   min-height: 90px;
   margin-bottom: 0 !important;
+}
+
+.navbar-brand {
+  height: auto;
+  padding-top: 15px;
+  margin: 0;
+}
+
+.navbar-nav {
+  margin: 0;
+  padding: 0;
 }
