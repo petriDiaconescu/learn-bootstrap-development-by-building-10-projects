@@ -105,5 +105,10 @@ header form {
     width: 80%;
   }
 }
+@media (max-width: 600px) {
+  .tab-content {
+    height: 350px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
