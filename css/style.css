@@ -86,3 +86,10 @@ body {
   }
 }
 
+@media(max-width: 991px) {
+  .carousel-caption p, 
+  #myCarousel .list-group {
+    display: none;
+  }
+}
+
