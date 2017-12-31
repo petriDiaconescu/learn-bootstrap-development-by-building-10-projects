@@ -76,6 +76,13 @@ body {
   margin-right: 5px;
 }
 
+.post-info {
+  background: #333;
+  color: #fff;
+  padding: 5px;
+  border: #ccc 1px solid;
+}
+
 @media(min-width: 992px){
   #myCarousel {
     padding-right: 33.3333%;
