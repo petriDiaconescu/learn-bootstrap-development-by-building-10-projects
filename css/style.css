@@ -75,3 +75,14 @@ body {
   float: left;
   margin-right: 5px;
 }
+
+@media(min-width: 992px){
+  #myCarousel {
+    padding-right: 33.3333%;
+  }
+  
+  #myCarousel .carousel-controls {
+    display: none;
+  }
+}
+
