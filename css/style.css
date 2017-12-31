@@ -21,3 +21,50 @@ body {
   background: #f4f4f4;
 }
 
+/* Carousel Styles */
+#myCarousel {
+  margin-bottom: 20px;
+}
+
+#myCarousel .carousel-caption {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: left;
+  padding: 10px;
+  background: rgba(0,0,0,0.6);
+  text-shadow: none;
+}
+
+#myCarousel .carousel-caption h4 {
+  color: #fff;
+}
+
+#myCarousel .carousel-caption p {
+  padding: 0;
+  margin: 0;
+}
+
+#myCarousel .list-group {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#myCarousel .list-group-item {
+  border-radius: 0;
+  cursor: pointer;
+}
+
+#myCarousel .list-group .active {
+  background: #eee;
+  border: 0;
+  color: #666;
+}
+
+#myCarousel .list-group h4 {
+  font-size: 17px;
+  padding: 0 !important;
+  margin: 0 !important;
+  padding-top: 5px;
+}
