@@ -13,3 +13,10 @@ body {
 .logo {
   padding: 10px 0;
 }
+
+.navbar {
+  margin-bottom: 20px;
+  border-radius: 0;
+  border: 0;
+  background: #f4f4f4;
+}
