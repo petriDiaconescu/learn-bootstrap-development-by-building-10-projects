@@ -93,3 +93,9 @@ body {
   }
 }
 
+@media(max-width: 1200px){
+  .slider-list p {
+    display: none;
+  }
+}
+
