@@ -64,6 +64,12 @@ section {
   width: 75%;
 }
 
+img.demo {
+  width: 100%;
+  padding: 3px;
+  border: 1px solid darken(black, 80%);
+}
+
 section#feature {
   background: $dark-cyan;
   color: #fff;

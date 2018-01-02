@@ -42,6 +42,11 @@ section {
 .jumbotron img.showcase-img {
   width: 75%; }
 
+img.demo {
+  width: 100%;
+  padding: 3px;
+  border: 1px solid black; }
+
 section#feature {
   background: #1caa98;
   color: #fff;
