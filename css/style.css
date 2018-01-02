@@ -11,4 +11,16 @@ body {
   color: #555;
   background: #e7e7e7; }
 
+.navbar-brand {
+  padding: 0.65rem; }
+
+.em-text {
+  color: #1caa98 !important; }
+
+.col-lg-4 {
+  margin-bottom: 20px; }
+
+section {
+  padding: 40px 0 40px 0; }
+
 /*# sourceMappingURL=style.css.map */
