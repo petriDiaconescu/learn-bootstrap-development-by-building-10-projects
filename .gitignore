@@ -1,2 +1,6 @@
 nbproject/
 node_modules/
+css/
+js/bootstrap.min.js
+js/jquery.min.js
+js/popper.min.js
