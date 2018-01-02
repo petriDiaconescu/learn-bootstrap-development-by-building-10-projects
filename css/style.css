@@ -42,4 +42,17 @@ section {
 .jumbotron img.showcase-img {
   width: 75%; }
 
+section#feature {
+  background: #1caa98;
+  color: #fff;
+  padding: 40px;
+  overflow: auto; }
+  section#feature ul {
+    padding: 0;
+    margin: 0; }
+    section#feature ul li {
+      font-size: 22px;
+      list-style: none;
+      line-height: 2.0em; }
+
 /*# sourceMappingURL=style.css.map */
