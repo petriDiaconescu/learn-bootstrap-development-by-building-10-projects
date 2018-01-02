@@ -66,6 +66,8 @@ section#title-bar {
   height: 80px;
   background: #1caa98;
   color: #fff; }
+  section#title-bar h1 {
+    margin: 1rem 0; }
 
 footer {
   background: #333333;

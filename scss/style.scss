@@ -94,6 +94,10 @@ section#title-bar {
   height: 80px;
   background: $dark-cyan;
   color: #fff;
+  
+  h1 {
+    margin: 1rem 0;
+  }
 }
 
 footer {
