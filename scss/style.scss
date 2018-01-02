@@ -89,3 +89,23 @@ section#title-bar {
   background: $dark-cyan;
   color: #fff;
 }
+
+footer {
+  background: lighten(black, 20%);
+  color: #fff;
+  padding: 30px 0 20px 0;
+  
+  li {
+    float: left;
+    padding: 0 10px 0 10px;
+    list-style: none;
+  }
+  
+  a {
+    color: #fff;
+  }
+  
+  p {
+    float: right;
+  }
+}
