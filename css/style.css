@@ -29,4 +29,7 @@ section {
   height: 500px;
   overflow: hidden; }
 
+.jumbotron h1 {
+  margin-top: 60px; }
+
 /*# sourceMappingURL=style.css.map */
