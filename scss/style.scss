@@ -39,3 +39,10 @@ body {
 section {
   padding: 40px 0 40px 0;
 }
+
+.jumbotron {
+  background: $very-dark-blue url(../img/site_showcase_bg.jpg) no-repeat top center;
+  color: #fff;
+  height: 500px;
+  overflow: hidden;
+}
