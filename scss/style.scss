@@ -81,3 +81,11 @@ section#feature {
     }
   }
 }
+
+section#title-bar {
+  padding: 0;
+  margin: 0;
+  height: 80px;
+  background: $dark-cyan;
+  color: #fff;
+}
