@@ -4,7 +4,7 @@ var sourcemaps = require('gulp-sourcemaps');
 var plugins = require('gulp-load-plugins')();
 
 gulp.task('sass', function(){
-  return gulp.src(['node_modules/bootstrap/scss/bootstrap.scss', 'scss/**/*.scss'])
+  return gulp.src(['node_modules/bootstrap/scss/bootstrap.scss', 'node_modules/font-awesome/scss/font-awesome.scss', 'scss/**/*.scss'])
     .pipe(plugins.plumber(function(error){
       console.log(error.toString());
       this.emit('end');
@@ -24,8 +24,13 @@ gulp.task('move-js', function(){
     .pipe(gulp.dest('js'));
 });
 
+gulp.task('move-fonts', function(){
+  return gulp.src('node_modules/font-awesome/fonts/*').
+    pipe(gulp.dest('fonts'));
+});
+
 gulp.task('watch', function(){
   gulp.watch('scss/*.scss', ['sass'])
 });
 
-gulp.task('default', ['move-js', 'sass', 'watch']);
+gulp.task('default', ['move-js', 'move-fonts', 'sass', 'watch']);
