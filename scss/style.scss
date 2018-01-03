@@ -119,3 +119,21 @@ footer {
     float: right;
   }
 }
+
+#accordion {
+  margin-bottom: 20px;
+  
+  .card {
+    +.card {
+      margin-top: 5px;
+    }
+    .card-header {
+      h6 {
+        font-weight: normal;
+      }
+      a {
+        color: inherit;
+      }
+    }
+  }
+}

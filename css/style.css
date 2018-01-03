@@ -1,3 +1,94 @@
 body {
-  padding-top: 50px;
-}
+  padding-top: 50px; }
+
+.navbar {
+  padding: 0; }
+
+.nav.navbar-nav .nav-link {
+  padding: 0.85rem 1rem; }
+
+.nav.navbar-nav .active .nav-link {
+  color: #555;
+  background: #e7e7e7; }
+
+.navbar-brand {
+  padding: 0.65rem; }
+
+.em-text {
+  color: #1caa98 !important; }
+
+.col-lg-4 {
+  margin-bottom: 20px; }
+
+section {
+  padding: 40px 0 40px 0; }
+
+.jumbotron {
+  background: #1b222a url(../img/site_showcase_bg.jpg) no-repeat top center;
+  color: #fff;
+  height: 500px;
+  overflow: hidden; }
+
+.jumbotron h1 {
+  margin-top: 60px; }
+
+.jumbotron p {
+  margin-bottom: 40px; }
+
+.jumbotron img.app-btn {
+  width: 40%;
+  margin-right: 30px; }
+
+.jumbotron img.showcase-img {
+  width: 75%; }
+
+img.demo {
+  width: 100%;
+  padding: 3px;
+  border: 1px solid black; }
+
+section#feature {
+  background: #1caa98;
+  color: #fff;
+  padding: 40px;
+  overflow: auto; }
+  section#feature ul {
+    padding: 0;
+    margin: 0; }
+    section#feature ul li {
+      font-size: 22px;
+      list-style: none;
+      line-height: 2.0em; }
+
+section#title-bar {
+  padding: 0;
+  margin: 0;
+  height: 80px;
+  background: #1caa98;
+  color: #fff; }
+  section#title-bar h1 {
+    margin: 1rem 0; }
+
+footer {
+  background: #333333;
+  color: #fff;
+  padding: 30px 0 20px 0; }
+  footer li {
+    float: left;
+    padding: 0 10px 0 10px;
+    list-style: none; }
+  footer a {
+    color: #fff; }
+  footer p {
+    float: right; }
+
+#accordion {
+  margin-bottom: 20px; }
+  #accordion .card + .card {
+    margin-top: 5px; }
+  #accordion .card .card-header h6 {
+    font-weight: normal; }
+  #accordion .card .card-header a {
+    color: inherit; }
+
+/*# sourceMappingURL=style.css.map */
